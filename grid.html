@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <style>
+      #grid{
+        border: 3px solid pink;
+        display: grid;
+        grid-template-columns: 150px 1fr;
+        /* NAVIGATION은 150으로 고정, ARTICLE은 나머지 공간 차지 */
+        /* 만약 둘다 1fr로 할 경우 둘은 같은 크기가 됨. 비율.*/
+      }
+      div {
+        border: 3px solid gray;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="grid"> <!-- 부모태그 -->
+      <div>NAVIGATION</div> <!-- div는 기본 태그. blcok level -->
+      <div>ARTICLE</div>  <!-- span도 기본 태그. inline. -->
+    </div>
+  </body>
+</html>
