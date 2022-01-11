@@ -7,6 +7,16 @@
   </head>
   <body>
     <h1><a href="index.html" title="index.html">WEB</a></h1>
+    <!-- 야간모드, 주간모드 버튼 -->
+    <input type="button" value="night" onclick="
+      document.querySelector('body').style.backgroundColor='black';
+      document.querySelector('body').style.color='white'">
+    <!-- 괄호안에는 css selector를 따옴표로 감싸서 넣어줌 -->
+    <!-- class selector, id selector 모두 가능 -->
+    <input type="button" value="day" onclick="
+      document.querySelector('body').style.backgroundColor='white';
+      document.querySelector('body').style.color='black'">
+
     <div id="grid">
       <ol>
         <li><a href="1.html" title="1.html">HTML</a></li>

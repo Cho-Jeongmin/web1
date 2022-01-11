@@ -9,7 +9,7 @@ h1{
   border-bottom: 2px solid gray;
 }
 a{
-  color:black;
+  color:skyblue;
   text-decoration: none;
 }
 #grid{
@@ -21,6 +21,7 @@ a{
   border-right: 2px solid gray;
   padding: 20px;
   padding-left: 40px;
+  color:skyblue;
 }
 #grid #article{
   padding: 20px;
